@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="s1">
+<LineStyle>
+<color>7f0000ff</color>
+<width>4</width>
+</LineStyle>
+<PolyStyle>
+<color>7f0000ff</color>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+</PolyStyle>
+</Style>
+<Folder>
+<name>Cafe</name>
+<Placemark><name>LittleGalen</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287060,34.023144</coordinates></Point> 
+</Placemark>
+<Placemark><name>THC</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.290058,34.020335</coordinates></Point> 
+</Placemark>
+<Placemark><name>Fertitta</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282495,34.018969</coordinates></Point>
+</Placemark>
+<Placemark><name>ULSC</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284396,34.018901</coordinates></Point> 
+</Placemark>
+<Placemark><name>Lemonade</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286176,34.020766</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Libraries</name>
+<Placemark><name>Dohney</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283723,34.020252</coordinates></Point> 
+</Placemark>
+<Placemark><name>VKC</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284022,34.021449</coordinates></Point>
+</Placemark>
+<Placemark><name>lEAVEY</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282790,34.021888</coordinates></Point> 
+</Placemark>
+<Placemark><name>SEL</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288778,34.019825</coordinates></Point>
+</Placemark>
+<Placemark><name>Hoose</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286595,34.018861</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Official Buildings</name>
+<Placemark><name>SAL</name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.289474,34.019707</coordinates></Point>
+</Placemark>
+<Placemark><name>THH</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284626,34.022409</coordinates></Point>
+</Placemark>
+<Placemark><name>SGM</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289008,34.021643</coordinates></Point> 
+</Placemark>
+<Placemark><name>DRL</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291113,34.021646</coordinates></Point>
+</Placemark>
+<Placemark><name>SSC</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289403,34.020101</coordinates></Point>
+</Placemark>
+</Folder>
+<Placemark>
+<name>ConvexHullall</name>
+<Style><LineStyle><color>ffff7d53</color></LineStyle><PolyStyle><color>80fe4d28</color></PolyStyle></Style>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-118.286595,34.018861 -118.289474,34.019707 -118.290058,34.020335 -118.291113,34.021646 -118.28706,34.023144 -118.28279,34.021888 -118.282495,34.018969 -118.284396,34.018901 -118.286595,34.018861</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon> 
+</Placemark>
+<Placemark>
+<name>Neighbour1</name>
+<description>Neighbour1</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.289474,34.019707 -118.289403,34.020101</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Neighbour2</name>
+<description>Neighbour2</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.289474,34.019707 -118.288778,34.019825</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour3</name>
+<description>Neighbour3</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.289474,34.019707 -118.290058,34.020335</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour4</name>
+<description>Neighbour4</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.289474,34.019707 -118.289008,34.021643</coordinates>
+</LineString>
+</Placemark>
+
+</Document></kml>

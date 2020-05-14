@@ -1,0 +1,27 @@
+The design choices I made for formulating the ERD:
+
+	1) A student may take a course or a project during registration hence one registration id can correspond to either one project or one course or 1 course and 
+		1 project.
+	
+	2)	An entity named Course setting has been designed to link a course with faculty and textbooks since many faculties can teach one course and refer different
+		textbooks. Every row in the table would also store the number of hours a faculty teaches that course in a week.
+	
+	3) 	An entity named project setting has been designed to link a project with the faculty that supervises it since many faculties can supervise one project.
+		Every row in the table would also store the number of hours a faculty supervises that project in a week.
+		
+	4)	A special entity named registration is created to keep a track of what courses and projects a student is taking. I have assumed that a student can make
+		multiple registratons wherein he/she takes 1 course and/or 1 project per week.
+		So this table can be used to define the final fees paid by the student as we can get the count of classes and projects he/she took.
+		
+		This entity is linked to the schedule entity so the relationship between the two will give both the student an idea which course/project 
+		is when(date and time) and where (room_no).
+
+	5) Student form groups of 4 for doing projects and since 1 student can do multiple projects and hence be a part of muliple groups and i assumed that one 
+		group can do multiple projects so the entity project group stores the project_setting for a particular student in a particular project group. Every 
+		project group is then assigned a table id which has a set of parts to complete the project.
+		
+	6) These project parts can be brought from various suppliers and so in order to create a bridge for this m:n relationship, I designed an entity named order. 
+		A single order in this table correspondes to multiple items brought from a single supplier.
+		
+	7) The rating table basically stores the rating given by a student to a course or faculty or project and hence rate id can correspond to rating of a faculty or 
+		course or project.
